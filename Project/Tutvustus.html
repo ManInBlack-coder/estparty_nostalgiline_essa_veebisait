@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<br>
+<br>
+
+
+<!--
+
+	Metaandmed
+-->
+<head>
+	<title>Tutvustus</title>
+	<meta name="description" content="Õpime veebitehnoloogiat" />
+	<meta name="keywords" content="HTML,HTML5" />
+	<meta name="author" content="ALEKSANDER" />
+	<meta charset="UTF-8" />
+	<script src="https://kit.fontawesome.com/7fb305e5bb.js" crossorigin="anonymous"></script>
+</head>
+
+<!--Stiil
+-->
+
+<!------------------------------------------------------------------------ -->
+
+
+	<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+		nav.Lingid {
+			text-align: center;
+
+			font-size:x-large;
+			text-decoration: none;
+			position: relative;
+    		top: -116px;
+		}
+		
+		.Lingid a {
+			color:hwb(53.34deg 14.51% 10.99%);
+			text-decoration: none;
+			top:10px;
+			font-family: unset;
+			MARGIN: 1px;
+		
+		}
+
+		/*Nupu hover
+		*/
+		.Lingid a:hover {
+			background-color: #484673f7;
+			color: white;
+			padding: 0.5px;
+			border-style:outset;
+			
+		}
+
+		.Lingid {
+			color: #5581bb;
+				
+		}
+
+		
+		
+		.facilities  {
+			text-align: center;
+			height: 200px;
+			color: #fff;
+		}
+		
+		.facilities h1 {
+			height: 60px;
+		}
+		
+		.Pealkir_Ikoon {
+			margin: 1px;
+			padding: 2px;
+			text-align: center;
+			font-variant: small-caps;
+		}
+		.fa-solid fa-compact-disc {
+			display: inline-block;
+			font-variant: small-caps;
+			font-variant: small-caps;
+			padding: 1px;
+
+		}
+
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: "Roboto", serif;
+		}
+		body {
+			display:block;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+			background:rgb(53, 34, 97) ;
+		}
+		.wrapper {
+			margin: 100px;
+			width: 70%;
+			position:relative;
+			top:initial;
+			display: flex;	
+			border: 5px solid black;	
+			background-color: #171367;
+			
+		}
+		/*---------------------------------*/
+		
+		.artiklite-sektsioon {
+			margin: 150px;
+			width: 70%;
+			position:center;
+			top:initial;
+			display: flow;	
+			/*border: 3px solid black;*/	
+			background-color: #484673f7;
+			margin: auto;
+			padding-bottom: 35px;
+		}
+
+		.sektsiooni-header {
+			margin: 15px;
+			padding: 15px;
+			color: #fff;
+		}
+
+		.DJ-tekst {
+			padding: 4px;
+		}
+		
+		img {
+			max-width: 200px;
+			float:left ;
+			border: 3px solid#1d46cf;
+			border-radius: 10px;
+			margin-right: 15px;
+
+		}
+		.text-box {
+			color: #fff;
+		}
+		.text-box h3 {
+			font-size: 32px;
+
+		}
+		
+		/*---------------------*/
+		.footer {
+			color: #fff;
+		}
+		
+		.Tausta-pilt {
+			background-image: url("Üritus.jpg");
+  			background-color: #cccccc;
+  			height: 500px;
+ 			background-position: center;
+ 			background-repeat: no-repeat;
+ 			background-size: cover;
+ 			position: relative;
+			border: 3px solid#000000;
+			background-attachment:fixed;
+		}		
+		.footer {
+			position: fixed;
+   			left: 0;
+   			bottom: 0;
+   			width: 100%;
+   			background-color: rgb(35, 6, 82);
+   			color: white;
+   			text-align: center;
+			padding: 11px;
+			/*font-size: 23px;*/
+		}
+			
+		.Tutvustus-title {
+			text-align: center;
+			height: 200px;
+			color: #fff;	
+		}
+
+		#artists{
+			align-items: center;
+			position: flex;
+		}
+
+
+
+	</style>
+
+
+<!------------------------------------------------------------------------ -->
+
+<body>
+	<main class="main">
+		<!-- Taustapildi klass
+		-->
+		<div class="Tausta-pilt">
+			<!-- 
+				Lehe pealkiri 
+			-->
+			<header class="facilities">
+				<div class="Pealkiri_Ikoon">
+					<h1 class="fa-solid fa-compact-disc"> EstPartyPool</h1>
+				</div> 
+			
+				<p1>Diskorid teie pidudele</p1>
+			</header>
+        	<br>
+			<nav class="Lingid">
+			<!--
+				Lehe sisukord
+			-->
+				<a href="Index.html" >Avaleht</a> | <a href="Tutvustus.html"> Artistid </a> | <a href="Form.html">Kontakt</a>
+			</nav>
+			<header class="Tutvustus-title">
+				<h1>Artistid</h1>
+			</header>	
+		</div>
+	</main>
+</body>
+
+<!--
+
+Artiklite sektsioon:
+- Artiklid lähevad ühte kasti
+
+-->
+
+<div class="artiklite-sektsioon" >
+	
+	<!--
+
+		Artikli pealkiri
+	-->
+	<div class="sektsiooni-header">
+		<br>
+		
+		<div style="text-align: center;">
+			<h2>Meie artistid</h2>
+
+		</div>
+	</div>
+	
+	<!--
+
+		Artikkel
+	-->
+	<div class="wrapper">
+	<div id="artists">
+
+
+		<img src="RIit.JPG" alt="">
+		<div class="text-box">
+			<h3>DJ Riit</h3>
+			<p class="DJ-tekst" >Esitleme teile värskelt loodud veebisaiti, mis on mõeldud oma karjääri alustavatele diskoritele.</p>
+		</div>
+		
+	</div>	
+	
+	</div>
+
+	<div class="wrapper">
+
+
+		<div id="artists">
+
+
+			<img src="Pvl.JPG" alt="">
+		<div class="text-box">
+			<h3>DJ Pvl</h3>
+			<p class="DJ-tekst">Esitleme teile värskelt loodud veebisaiti, mis on mõeldud oma karjääri alustavatele diskoritele.</p>
+		
+		</div>
+
+
+		</div>	
+		
+	</div>
+
+	<div class="wrapper">
+
+
+		<div id="artists">
+
+
+			<img src="Asko.JPG" alt="">
+		<div class="text-box">
+			<h3>DJ Askp</h3>
+			<p class="DJ-tekst">Esitleme teile värskelt loodud veebisaiti, mis on mõeldud oma karjääri alustavatele diskoritele.</p>
+		
+
+		</div>	
+		
+		</div>
+		
+	</div>
+
+</div>	
+<!--
+	Banner
+-->
+<div>
+	<footer class="footer">
+		<p >EstPartyPool.om | Kopli 3, Tartu | +372 5345 4867</p>
+	</footer>
+	</div>
+
+</html>

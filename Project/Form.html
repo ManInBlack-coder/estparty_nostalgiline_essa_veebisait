@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<br>
+<br>
+
+
+<!--
+
+	Metaandmed
+-->
+<head>
+	<title>Kontakt</title>
+	<meta name="description" content="Õpime veebitehnoloogiat" />
+	<meta name="keywords" content="HTML,HTML5" />
+	<meta name="author" content="ALEKSANDER" />
+	<meta charset="UTF-8" />
+	<script src="https://kit.fontawesome.com/7fb305e5bb.js" crossorigin="anonymous"></script>
+</head>
+
+<!--Stiil
+-->
+
+<!------------------------------------------------------------------------ -->
+
+
+	<style>
+		nav.Lingid {
+			text-align: center;
+
+			font-size:x-large;
+			text-decoration: none;
+			position: relative;
+    		top: -116px;
+		}
+		
+		.Lingid a {
+			color:hwb(53.34deg 14.51% 10.99%);
+			text-decoration: none;
+			top:10px;
+			font-family: unset;
+			MARGIN: 1px;
+		
+		}
+
+		/*Nupu hover
+		*/
+		.Lingid a:hover {
+			background-color: #484673f7;
+			color: white;
+			padding: 0.5px;
+			border-style:outset;
+			
+		}
+
+		.Lingid {
+			color: #5581bb;
+				
+		}
+
+		
+		
+		.facilities  {
+			text-align: center;
+			height: 200px;
+			color: #fff;
+		}
+		
+		.facilities h1 {
+			height: 60px;
+		}
+		
+		.Pealkir_Ikoon {
+			margin: 1px;
+			padding: 2px;
+			text-align: center;
+			font-variant: small-caps;
+		}
+		.fa-solid fa-compact-disc {
+			display: inline-block;
+			font-variant: small-caps;
+			font-variant: small-caps;
+			padding: 1px;
+
+		}
+
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: cursive;
+		}
+		body {
+			display:block;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+			background:rgb(53, 34, 97) ;
+		}
+		.wrapper {
+			margin: 150px;
+			width: 70%;
+			position:relative;
+			top:initial;
+			display: flex;	
+			border: 5px solid black;	
+			background-color: #171367;
+            
+
+	
+		}
+        .DJ-tekst {
+			padding: 4px;
+		}
+
+		/*---------------------------------*/
+		
+		.Form-sektsioon {
+			margin: 150px;
+			width: 70%;
+			position:center;
+			top:initial;
+			display: flow;	
+			/*border: 3px solid black;*/	
+			background-color: #484673f7;
+			margin: auto;
+			padding-bottom: 35px;
+		}
+
+		.Form-header {
+			margin: 15px;
+			padding: 15px;
+			color: #fff;
+		}
+        .Form-kast {
+            padding: 20px;
+        }
+        
+        /*-----------*/
+        /*Formi asjad*/
+
+        .row {
+           margin-bottom: 20px;
+           
+        }
+
+        .required {
+            color: #fff;
+
+
+        }
+
+        .submit_button {
+  position: relative;
+  background-color: #171367;
+  border: none;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+        /*-----------*/
+
+
+
+
+		/*---------------------*/
+		.footer {
+			color: #fff;
+		}
+		
+		.Tausta-pilt {
+			background-image: url("Üritus.jpg");
+  			background-color: #cccccc;
+  			height: 500px;
+ 			background-position: center;
+ 			background-repeat: no-repeat;
+ 			background-size: cover;
+ 			position: relative;
+			border: 3px solid#000000;
+			background-attachment:fixed;
+		}		
+		.footer {
+			position: fixed;
+   			left: 0;
+   			bottom: 0;
+   			width: 100%;
+   			background-color: rgb(35, 6, 82);
+   			color: white;
+   			text-align: center;
+			padding: 11px;
+		}
+			
+		.Tutvustus-title {
+			text-align: center;
+			height: 200px;
+			color: #fff;	
+		}
+
+
+
+	</style>
+
+
+<!------------------------------------------------------------------------ -->
+
+<body>
+	<main class="main">
+		<!-- Taustapildi klass
+		-->
+		<div class="Tausta-pilt">
+			<!-- 
+				Lehe pealkiri 
+			-->
+			<header class="facilities">
+				<div class="Pealkiri_Ikoon">
+					<h1 class="fa-solid fa-compact-disc"> EstPartyPool</h1>
+				</div> 
+			
+				<p1>Diskorid teie pidudele</p1>
+			</header>
+        	<br>
+			<nav class="Lingid">
+			<!--
+				Lehe sisukord
+			-->
+				<a href="Index.html" >Avaleht</a> | <a href="Tutvustus.html"> Artistid </a> | <a href="Form.html">Kontakt</a>
+			</nav>
+			<header class="Tutvustus-title">
+				<h1>Kontakt</h1>
+			</header>	
+		</div>
+	</main>
+</body>
+
+<!--
+
+Artiklite sektsioon:
+- Artiklid lähevad ühte kasti
+
+-->
+
+<div class="Form-sektsioon" >
+	
+	<!--
+
+		Form pealkiri
+	-->
+	<div class="Form-header">
+		
+		
+		<h2>Kontakteerumine siin</h2>
+	</div>
+	
+	<!--
+
+		Form
+	-->
+    <form class="Form-kast" id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+        <div class="row">
+          <label class="required" for="name">Nimi:</label><br />
+          <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+          
+        <div class="row">
+          <label class="required" for="email">E-posti aadress:</label><br />
+          <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+          
+        </div>
+        <div class="row">
+          <label class="required" for="message">Sõnum:</label><br />
+          <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+          
+        </div>
+        
+        
+        <div class="row">  
+          <input class="submit_button" type="submit" style="vertical-align:middle" value="Send email" />
+        </div>
+      </form>
+
+</div>	
+<!--
+	Banner
+-->
+<div>
+	<footer class="footer">
+		<p >EstPartyPool.om | Kopli 3, Tartu | +372 5345 4867</p>
+	</footer>
+	</div>
+
+</html>
